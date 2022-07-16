@@ -1,0 +1,48 @@
+.home-container {
+    min-height: 100vh;
+}
+.online-tools {
+    min-height: 100vh;
+    /* margin: 1rem 0; */
+    border-radius: 6px;
+}
+.tools-container {
+    padding: 1rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.tool-box {
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    width: 8rem;
+    min-height: 8rem;
+    background: #fff;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(34, 137, 255, 0.2);
+    transition: 0.3s;
+}
+.tool-box:hover {
+    box-shadow: 0 0 10px rgba(34, 137, 255, 0.2);
+    background: #2289ff;
+}
+.tool-box i {
+    margin: 0 auto;
+    line-height: 1.2;
+    font-size: 3.5rem;
+    color: #2289ff;
+}
+.tool-title {
+    text-align: center;
+    display: block;
+    color: #444;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+.tool-box:hover i,
+.tool-box:hover .tool-title{
+    color: #fff;
+}
