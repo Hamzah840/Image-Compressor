@@ -1,0 +1,27 @@
+.footer-container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0.5rem;
+    background: #fff;
+    width: 100%;
+    min-height: 3rem;
+    box-shadow: 0 0 5px #4e4e4e1a;
+}
+.copyright {
+    color: #444;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-style: italic;
+}
+.copyright a {
+    color: rgb(16, 205, 230);
+    font-weight: 500;
+    transition: 0.3s;
+}
+.copyright a:hover {
+    color: rgb(0, 119, 255);
+    /* letter-spacing: 0px; */
+}
